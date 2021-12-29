@@ -4,17 +4,15 @@
 body {
   font-size: 14px;
 }
-.v1_9 {
-  width: 100%;
-  height: 1024px;
-  background: rgba(22,22,22,1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
+.logos {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
 }
-.v1_16 {
+
+.background {
   width: 842px;
   height: 842px;
   background: url("../images/v1_16.png");
@@ -27,23 +25,23 @@ body {
   left: 50px;
   overflow: hidden;
 }
-.v1_13 {
+.name {
   width: 183px;
-  color: rgba(255,233,0,1);
+  color: black;
   position: absolute;
-  top: 168px;
+  top: 58px;
   left: 44px;
-  font-family: Kaushan Script;
+  font-family: Fredoka One;
   font-weight: Regular;
   font-size: 60px;
   opacity: 1;
-  text-align: left;
+  text-align:left;
 }
-.v1_14 {
+.summary {
   width: 243px;
-  color: rgba(255,255,255,0.25999999046325684);
+  color: black;
   position: absolute;
-  top: 306px;
+  top: 250px;
   left: 50px;
   font-family: Fredoka One;
   font-weight: Regular;
@@ -51,9 +49,12 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v7_173 {
+
+a:hover {
+  color:#ffcc00;}
+.about {
   width: 100px;
-  color: rgba(255,255,255,1);
+  color: black;
   position: absolute;
   top: 426px;
   left: 50px;
@@ -63,9 +64,9 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v7_174 {
+.work {
   width: 117px;
-  color: rgba(255,255,255,1);
+  color: black;
   position: absolute;
   top: 461px;
   left: 50px;
@@ -75,9 +76,9 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v7_175 {
+.resume {
   width: 116px;
-  color: rgba(255,255,255,1);
+  color: black;
   position: absolute;
   top: 496px;
   left: 50px;
@@ -87,9 +88,9 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v7_176 {
+.contact_me {
   width: 190px;
-  color: rgba(255,255,255,1);
+  color: black;
   position: absolute;
   top: 531px;
   left: 50px;
@@ -98,364 +99,4 @@ body {
   font-size: 16px;
   opacity: 1;
   text-align: left;
-}
-.v7_177 {
-  width: 64px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 566px;
-  left: 50px;
-  font-family: Fredoka One;
-  font-weight: Regular;
-  font-size: 16px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_27 {
-  width: 31px;
-  color: rgba(255,233,0,1);
-  position: absolute;
-  top: 748px;
-  left: 50px;
-  font-family: Avenir Next;
-  font-weight: Regular;
-  font-size: 9px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_42 {
-  width: 153px;
-  color: url("../images/v1_42.png");
-  position: absolute;
-  top: 762px;
-  left: 50px;
-  font-family: Avenir Next;
-  font-weight: Demi Bold;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_49 {
-  width: 36px;
-  color: rgba(255,233,0,1);
-  position: absolute;
-  top: 748px;
-  left: 288px;
-  font-family: Avenir Next;
-  font-weight: Regular;
-  font-size: 9px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_50 {
-  width: 89px;
-  color: url("../images/v1_50.png");
-  position: absolute;
-  top: 762px;
-  left: 288px;
-  font-family: Avenir Next;
-  font-weight: Demi Bold;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
-.name {
-  color: #fff;
-}
-.v7_130 {
-  width: 82px;
-  height: 16px;
-  background: url("../images/v7_130.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 810px;
-  left: 497px;
-  overflow: hidden;
-}
-.v7_131 {
-  width: 58px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  font-family: Avenir Next;
-  font-weight: Demi Bold;
-  font-size: 12px;
-  opacity: 1;
-  text-align: right;
-}
-.v7_132 {
-  width: 16px;
-  height: 16px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 66px;
-  overflow: hidden;
-}
-.v7_133 {
-  width: 15px;
-  height: 7px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 4px;
-  left: 0px;
-}
-.name {
-  color: #fff;
-}
-
-* {
-  box-sizing: border-box;
-}
-body {
-  font-size: 14px;
-}
-.v1_51 {
-  width: 595px;
-  height: 798px;
-  background: rgba(22,22,22,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v1_53 {
-  width: 508px;
-  color: rgba(255,255,255,0.10000000149011612);
-  position: absolute;
-  top: 71px;
-  left: 44px;
-  font-family: Kaushan Script;
-  font-weight: Regular;
-  font-size: 140px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_60 {
-  width: 528px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 379px;
-  left: 34px;
-  font-size: 18px;
-  opacity: 1;
-  text-align: center;
-}
-.v1_61 {
-  width: 76px;
-  color: rgba(255,233,0,1);
-  position: absolute;
-  top: 748px;
-  left: 34px;
-  font-family: Avenir Next;
-  font-weight: Regular;
-  font-size: 9px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_62 {
-  width: 140px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 762px;
-  left: 34px;
-  font-family: Avenir Next;
-  font-weight: Demi Bold;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_65 {
-  width: 27px;
-  color: rgba(255,233,0,1);
-  position: absolute;
-  top: 748px;
-  left: 242px;
-  font-family: Avenir Next;
-  font-weight: Regular;
-  font-size: 9px;
-  opacity: 1;
-  text-align: left;
-}
-.v1_66 {
-  width: 149px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 762px;
-  left: 242px;
-  font-family: Avenir Next;
-  font-weight: Demi Bold;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
-.v4_25 {
-  width: 60px;
-  color: rgba(255,233,0,1);
-  position: absolute;
-  top: 678px;
-  left: 34px;
-  font-family: Avenir Next;
-  font-weight: Regular;
-  font-size: 9px;
-  opacity: 1;
-  text-align: left;
-}
-.v4_26 {
-  width: 128px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 692px;
-  left: 34px;
-  font-family: Avenir Next;
-  font-weight: Demi Bold;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
-.v4_27 {
-  width: 62px;
-  color: rgba(255,233,0,1);
-  position: absolute;
-  top: 678px;
-  left: 242px;
-  font-family: Avenir Next;
-  font-weight: Regular;
-  font-size: 9px;
-  opacity: 1;
-  text-align: left;
-}
-.v4_28 {
-  width: 74px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 692px;
-  left: 242px;
-  font-family: Avenir Next;
-  font-weight: Demi Bold;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
-.v4_29 {
-  width: 76px;
-  color: rgba(255,233,0,1);
-  position: absolute;
-  top: 678px;
-  left: 415px;
-  font-family: Avenir Next;
-  font-weight: Regular;
-  font-size: 9px;
-  opacity: 1;
-  text-align: left;
-}
-.v4_30 {
-  width: 147px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 692px;
-  left: 415px;
-  font-family: Avenir Next;
-  font-weight: Demi Bold;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
-.name {
-  color: #fff;
-}
-.v7_135 {
-  width: 96px;
-  height: 16px;
-  background: url("../images/v7_135.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 810px;
-  left: 483px;
-  overflow: hidden;
-}
-.v7_136 {
-  width: 72px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  font-family: Avenir Next;
-  font-weight: Demi Bold;
-  font-size: 12px;
-  opacity: 1;
-  text-align: right;
-}
-.v7_137 {
-  width: 16px;
-  height: 16px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 80px;
-  overflow: hidden;
-}
-.v7_138 {
-  width: 15px;
-  height: 7px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 4px;
-  left: 0px;
-}
-.v7_179 {
-  width: 82px;
-  height: 16px;
-  background: url("../images/v7_179.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: absolute;
-  top: 810px;
-  left: 16px;
-  overflow: hidden;
-}
-.v7_180 {
-  width: 58px;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 0px;
-  left: 24px;
-  font-family: Avenir Next;
-  font-weight: Demi Bold;
-  font-size: 12px;
-  opacity: 1;
-  text-align: left;
-}
-.v7_181 {
-  width: 16px;
-  height: 16px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 16px;
-  overflow: hidden;
-}
-.v7_182 {
-  width: 15px;
-  height: 7px;
-  background: rgba(255,255,255,1);
-  opacity: 1;
-  position: absolute;
-  top: 4px;
-  left: 0px;
 }
